@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<!-- meta data -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- title -->
+<title>PDF.js</title>
+
+<!-- favicon -->
+
+
+<!-- stylesheet -->
+<link rel="stylesheet" th:href="@{/plugins/bootstrap/css/bootstrap.min.css}">
+<link rel="stylesheet" th:href="@{/plugins/fontawesome/css/all.min.css}">
+<link rel="stylesheet" th:href="@{/custom/css/base.css}">
+
+</head>
+<body>
+	<!-- loading spinner -->
+	<div id="overlay">
+		<div class="overlay-content">
+			<div class="lds-dual-ring"></div>
+			<br> <strong id="loading-text">Loading...</strong>
+		</div>
+	</div>
+
+	<!-- page content -->
+	<div class="main-content-wrapper container">
+		<div class="row text-center">
+			<div class="col-md-12 mt-5">
+				<h3 style="font-weight: bold;">PDF.js viewer</h3>
+				<p>Load and display pdf from project classpath</p>
+			</div>
+			<div class="col-md-12 mb-5">
+				<div class="embed-responsive embed-responsive-1by1">
+					<iframe th:src="@{/plugins/pdfjs/web/viewer.html?file=/documents/dummy.pdf}" class="embed-responsive-item"></iframe>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script th:src="@{/plugins/jquery/jquery-3.4.1.min.js}"></script>
+	<script th:src="@{/plugins/popper/popper.min.js}"></script>
+	<script th:src="@{/plugins/bootstrap/js/bootstrap.min.js}"></script>
+	<script th:src="@{/plugins/pdfjs/build/pdf.js}"></script>
+	<script th:src="@{/plugins/pdfjs/build/pdf.worker.js}"></script>
+	<script th:src="@{/custom/js/base.js}"></script>
+</body>
+</html>
