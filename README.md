@@ -1,4 +1,4 @@
-# **pdf-js **
+# **pdf-js**
 This project uses PDF.js and PDF.js viewer to display PDF files on a web page.
 
 #### **Overview**
