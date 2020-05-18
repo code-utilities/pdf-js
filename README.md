@@ -18,16 +18,16 @@ The following people/systems served as an inspiration and were immense to the su
 
 #### **References**
 * pdf.js examples
-	https://mozilla.github.io/pdf.js/examples/
-	https://pspdfkit.com/blog/2018/render-pdfs-in-the-browser-with-pdf-js/
-	https://jsfiddle.net/pdfjs/cq0asLqz/
-	https://stackoverflow.com/questions/35987398/pdf-js-how-to-make-pdf-js-viewer-canvas-responsive
-	https://stackoverflow.com/questions/53045127/how-do-i-display-all-pages-in-a-pdf-stored-in-base64-using-pdf-js/53298167
+	* https://mozilla.github.io/pdf.js/examples/
+	* https://pspdfkit.com/blog/2018/render-pdfs-in-the-browser-with-pdf-js/
+	* https://jsfiddle.net/pdfjs/cq0asLqz/
+	* https://stackoverflow.com/questions/35987398/pdf-js-how-to-make-pdf-js-viewer-canvas-responsive
+	* https://stackoverflow.com/questions/53045127/how-do-i-display-all-pages-in-a-pdf-stored-in-base64-using-pdf-js/53298167
 
 * javascript/jquery
 
 * css
-	https://getbootstrap.com/docs/4.0/utilities/embed/
+	* https://getbootstrap.com/docs/4.0/utilities/embed/
 
 #### **Built With**
 * [Spring Boot](https://spring.io/projects/spring-boot) - Java-based framework
